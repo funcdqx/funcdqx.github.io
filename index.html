@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <!-- Web Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet" />
+
+    <!-- Fraunes -->
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet" />
+
+    <title>Frontend Mentor | Product preview card component</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <div class="col">
+          <picture>
+            <source media="(max-width: 638px )" srcset="images/image-product-mobile.jpg" />
+            <img src="images/image-product-desktop.jpg" class="card_img" alt="" />
+          </picture>
+        </div>
+        <div class="col">
+          <article>
+            <p class="card_name_item">perfume</p>
+            <h2 class="card_name_title">Gabrielle Essence Eau De Parfum</h2>
+            <p>A floral1, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANNEL</p>
+            <div class="card_price">
+              <span class="card_price_item">$149.99</span>
+              <span><strike>$169.99</strike></span>
+            </div>
+
+            <a href="#" class="add_cart_item"> Add to Cart </a>
+          </article>
+        </div>
+      </div>
+    </main>
+
+    <div class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.frontendmentor.io/profile/funcdqx">Yudi Aditya</a>.</div>
+  </body>
+</html>
